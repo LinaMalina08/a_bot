@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+aiohttp = "3.9.1"
+aiodns = "3.1.1"
+django = "5.0.1"
+psycopg = "*"
+psycopg2-binary = "*"
+schedule = "*"
+python-telegram-bot = {extras = ["job-queue"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
